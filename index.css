@@ -1,0 +1,49 @@
+h1{
+	font-family:poppins;
+    margin: 20px auto;
+    color: whitesmoke;
+    max-width: 1000px;
+    opacity: 1;  
+
+}
+hr{
+	border-color: orangered;
+	border-width: 3px;
+	max-width: 65px;
+}
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+body,html
+{
+	 background: url(photo.avif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+.nowrap {
+  white-space: nowrap ;
+}
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	color: whitesmoke;
+}
+.btn-info{
+	background-color: orangered;
+	border-color: orangered;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+button:hover{
+		transform: scale(1.2);
+}
